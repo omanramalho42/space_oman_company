@@ -3,7 +3,7 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/bussiness.png',
     title: 'Landing Page',
-    link: ''
+    link: 'https://movies-1sedlv7au-omanramalho42.vercel.app/'
   },
   {
     id: 'world-2',
@@ -27,7 +27,8 @@ export const exploreWorlds = [
     id: 'world-5',
     imgUrl: '/market_place_nft.png',
     title: 'Ecommerce',
-    link: ''
+    link: 'https://my-shoppping.vercel.app/'
+    // link: 'https://shop-phi-three.vercel.app/'
   },
 ];
 
