@@ -3,26 +3,31 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/bussiness.png',
     title: 'Landing Page',
+    link: ''
   },
   {
     id: 'world-2',
     imgUrl: '/gofinance.png',
     title: 'Aplicativo de celular',
+    link: ''
   },
   {
     id: 'world-3',
     imgUrl: '/dashboard.png',
     title: 'Sistema de gestão',
+    link: 'https://dashboardv2.vercel.app/'
   },
   {
     id: 'world-4',
     imgUrl: '/labt2.png',
     title: 'Blog',
+    link: 'www.labtempo.com.br'
   },
   {
     id: 'world-5',
     imgUrl: '/market_place_nft.png',
     title: 'Ecommerce',
+    link: ''
   },
 ];
 
