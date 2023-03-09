@@ -35,7 +35,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, link }) =>
             className="w-1/2 h-1/2 object-contain"
           />
         </div>
-      <Link href={`https://${link}`} target="_blank">
+        <Link href={`/${link}`} target="_blank">
           <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
             Veja o projeto
           </p>
