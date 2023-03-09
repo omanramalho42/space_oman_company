@@ -81,7 +81,7 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: ''
+    link: 'https://www.twitter.com/oman.company/'
   },
   {
     name: 'linkedin',
