@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { socials } from '../constants';
 
 import styles from '../styles';
@@ -17,7 +18,7 @@ const Footer = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter the Metaverse
+          Faça o orçamento agora
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
@@ -25,9 +26,9 @@ const Footer = () => (
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          <span className="font-normal text-[16px] text-white">
-            Enter Metaverse
-          </span>
+          <Link target="_blank" href="https://wa.me//5585988084345?text=Tenho%20interesse%20em%20seus%20serviços" className="font-normal text-[16px] text-white">
+            Entre em contato
+          </Link>
         </button>
       </div>
 
@@ -36,20 +37,22 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            METAVERUS
+            SPACE OMAN COMPANY
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2021 - 2022 Metaversus. All rights reserved.
+            Copyright © 2023 Space Oman Company. All rights reserved.
           </p>
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img
-                key={social.name}
-                src={social.url}
-                alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
-              />
+              <Link href={social.link} target='_blank'>
+                <img
+                  key={social.name}
+                  src={social.url}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain cursor-pointer"
+                />
+              </Link>
             ))}
           </div>
         </div>

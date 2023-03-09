@@ -1,70 +1,79 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/bussiness.png',
+    title: 'Landing Page',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/gofinance.png',
+    title: 'Aplicativo de celular',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/dashboard.png',
+    title: 'Sistema de gestão',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/labt2.png',
+    title: 'Blog',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/market_place_nft.png',
+    title: 'Ecommerce',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Coletar Requisitos do cliente.',
+  'Processo de Diagramação e Prototipagem.',
+  'Implementação e Desenvolvimento do App.',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Comece no meio digital 👨‍💻',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+      'Insira seu negócio no meio digital com as melhores tencológias do mercado!',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Resultados 🎯',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'Obtenha resultado em um mês ou devolvemos o seu dinheiro!',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/imlpementation.jpg',
+    title: 'Planejamento: Definição dos requisitos e escopo do projeto.',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+      `
+      Planejamento: O processo de desenvolvimento de software começa com o planejamento, onde os requisitos do projeto são definidos 
+      e o escopo do trabalho é estabelecido. Nesta etapa, a equipe de desenvolvimento 
+      e o cliente discutem sobre as funcionalidades que o software deve ter e estabelecem um cronograma para a entrega do produto.
+      `,
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/development.jpg',
+    title: 'Implementação: Desenvolvimento do software, codificação e testes.',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+      `Implementação: Na etapa de implementação, o software é codificado pelos desenvolvedores. 
+      É importante que todo o código seja bem documentado e organizado para facilitar a manutenção futura.
+    `,
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/planning.jpg',
+    title: 'Implantação e manutenção: Entrega do software em ambiente de produção, manutenções regulares e atualizações de segurança.',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+      `
+      Implantação: Depois de passar pelos testes, o software é implantado em 
+      um ambiente de produção e fica disponível para os usuários finais.
+      `,
   },
 ];
 
@@ -72,17 +81,21 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    link: ''
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: 'https://www.linkedin.com/in/oman-ramalho-92749a210/'
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    link: 'https://www.instagram.com/oman.company/'
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    link: 'https://www.facebook.com/profile.php?id=100066750481861'
   },
 ];
