@@ -21,7 +21,7 @@ const Feedback = () => (
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
         <div className="feedback-gradient" />
-        <Link href="https://myportifolio-pa87akseu-omanramalho42.vercel.app/" target="_blank">
+        <Link className="cursor-pointer" href="https://my-port-3d.vercel.app/" target="_blank">
           <img src='https://github.com/omanramalho42.png' alt='avatar' />
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             Oman
