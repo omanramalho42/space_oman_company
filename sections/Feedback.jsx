@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-import link from 'next/link';
+import Link from 'next/link'
 
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
