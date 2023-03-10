@@ -19,7 +19,7 @@ const Feedback = () => (
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
         <div className="feedback-gradient" />
-        <div>
+        <Link href="https://myportifolio-pa87akseu-omanramalho42.vercel.app/" target="_blank">
           <img src='https://github.com/omanramalho42.png' alt='avatar' />
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             Oman
@@ -27,7 +27,7 @@ const Feedback = () => (
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
             Fundador da Space Oman Company
           </p>
-        </div>
+        </Link>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
           Programador a mais de 3 anos de atuação no mercado de desenvolvimento web/mobile. 
