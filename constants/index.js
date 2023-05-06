@@ -56,30 +56,48 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/imlpementation.jpg',
-    title: 'Planejamento: Definição dos requisitos e escopo do projeto.',
-    subtitle:
-      `
-      Planejamento: O processo de desenvolvimento de software começa com o planejamento, onde os requisitos do projeto são definidos 
-      e o escopo do trabalho é estabelecido. Nesta etapa, a equipe de desenvolvimento 
-      e o cliente discutem sobre as funcionalidades que o software deve ter e estabelecem um cronograma para a entrega do produto.
-      `,
+    // title: 'Planejamento: Definição dos requisitos e escopo do projeto.',
+    // subtitle:
+    //   `
+    //   O processo de desenvolvimento de software começa com o planejamento, onde os requisitos do projeto são definidos 
+    //   e o escopo do trabalho é estabelecido. Nesta etapa, a equipe de desenvolvimento 
+    //   e o cliente discutem sobre as funcionalidades que o software deve ter e estabelecem um cronograma para a entrega do produto.
+    //   `,
+    title: 'Serviços digitais',
+    subtitle: `
+    com a combinação de habilidades em tecnologia e negócios, nossa equipe pode 
+    oferecer serviços de desenvolvimento de softwares, marketing digital incluindo criação de conteúdo, gerenciamento de mídias sociais, 
+    anúncios pagos e otimização de mecanismos de busca (SEO).
+    `
   },
   {
     imgUrl: '/development.jpg',
-    title: 'Implementação: Desenvolvimento do software, codificação e testes.',
-    subtitle:
-      `Implementação: Na etapa de implementação, o software é codificado pelos desenvolvedores. 
-      É importante que todo o código seja bem documentado e organizado para facilitar a manutenção futura.
+    // title: 'Implementação: Desenvolvimento do software, codificação e testes.',
+    // subtitle:
+    //   `Implementação: Na etapa de implementação, o software é codificado pelos desenvolvedores. 
+    //   É importante que todo o código seja bem documentado e organizado para facilitar a manutenção futura.
+    // `,
+    title: 'Consultoria em tecnologia e negócios',
+    subtitle: `
+      nossa equipe é composta por profissionais com experiência em mercado exterior e direito, 
+      oferecemos serviços de consultoria em tecnologia 
+      e negócios para empresas que buscam expandir seus negócios globalmente.
     `,
   },
   {
     imgUrl: '/planning.jpg',
-    title: 'Implantação e manutenção: Entrega do software em ambiente de produção, manutenções regulares e atualizações de segurança.',
-    subtitle:
-      `
-      Implantação: Depois de passar pelos testes, o software é implantado em 
-      um ambiente de produção e fica disponível para os usuários finais.
-      `,
+    // title: 'Implantação e manutenção: Entrega do software em ambiente de produção, manutenções regulares e atualizações de segurança.',
+    title: 'Consultoria em contratos e propriedade intelectual',
+    // subtitle:
+    //   `
+    //   Implantação: Depois de passar pelos testes, o software é implantado em 
+    //   um ambiente de produção e fica disponível para os usuários finais.
+    // `,
+    subtitle:`
+      Com nossa equipe com experiência em contratos digitais, 
+      ofereceremos serviços de consultoria em contratos e propriedade intelectual 
+      para empresas e indivíduos que buscam orientação legal em suas operações comerciais.
+    `,
   },
 ];
 
