@@ -103,7 +103,7 @@ const Feedback = () => {
             Programador a mais de 3 anos de atuação no mercado de desenvolvimento web/mobile. 
           </p>
         </motion.div>
-
+          
         <motion.div
           variants={fadeIn('left', 'tween', 0.2, 1)}
           className="relative flex-1 flex justify-center items-center"
@@ -111,16 +111,17 @@ const Feedback = () => {
           {/* <img
             src="/planet-09.png"
             alt="planet-09"
-            className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+            className="absolute z-[0] w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
           /> */}
-
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className='mt-12 flex w-full flex-col gap-8'
+            className='mt-12 flex w-full flex-col gap-8 '
           >
             <label className='flex flex-col'>
-              <span className='text-white font-medium mb-4'>Seu nome</span>
+              <span className='text-white font-medium mb-4'>
+                Seu nome
+              </span>
               <input
                 type='text'
                 name='name'
@@ -163,7 +164,7 @@ const Feedback = () => {
 
           <motion.div
             variants={zoomIn(0.4, 1)}
-            className="lg:block hidden absolute -left-[10%] top-[3%]"
+            className="lg:block hidden absolute -left-[10%] top-[-5%]"
           >
             <img
               src="/stamp.png"
