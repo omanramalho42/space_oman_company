@@ -100,7 +100,7 @@ const Feedback = () => {
             </p>
 
           <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-            Programador a mais de 3 anos de atuação no mercado de desenvolvimento web/mobile. 
+            Nós conte o problema que você quer resolver que retornaremos com uma solução viável para seu negócio. 
           </p>
         </motion.div>
           
